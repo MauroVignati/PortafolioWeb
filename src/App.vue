@@ -3,11 +3,13 @@
   import DatosPersonales from './components/DatosPersonales.vue';
   import Educacion from './components/EducacionComponente.vue';
   import ExperienciaComponente from './components/ExperienciaComponente.vue';
-
+  import ProyectosComponente from './components/ProyectosComponente.vue';
+  import HabilidadesComponente from './components/HabilidadesComponente.vue';
+  import InteresesComponente from './components/InteresesComponente.vue';
 </script>
 
 <template>
-  <header>
+  <header id="top">
     <!--Barra de navegacion-->
     <NavBar />
     <!--Componentes Datos Personales-->
@@ -23,12 +25,28 @@
     <ExperienciaComponente />
     </section>
     <section id="proyectos"><h2>Proyectos</h2></section>
-    <section id="habilidades"><h2>Habilidades</h2></section>
-    <section id="intereses"><h2>Intereses</h2></section>
-
+    <ProyectosComponente />
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <HabilidadesComponente />
+    </section>
+    <section id="intereses">
+      <h2>Intereses</h2>
+      <InteresesComponente />
+    </section>
+    <footer>
+      <a href="#top">Subir</a>
+      <p>® 2024 Vignati Mauro - Portafolio web</p>
+    </footer>
   </main>
 </template>
 
 <style scoped>
-
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
 </style>
