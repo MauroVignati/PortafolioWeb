@@ -1,10 +1,15 @@
 <script setup>
+import proyecto1 from '/src/assets/RestoApp.png';
+import proyecto2 from '/src/assets/e-learning.png';
+import proyecto3 from '/src/assets/blogPersonal.png';
+import proyecto4 from '/src/assets/inventario.png';
+
 import { ref } from 'vue';
 var misProyectos = ref([]);
 misProyectos.value = ([
     {
         id: 1,
-        src: "/src/assets/RestoApp.png",
+        src: proyecto1,
         titulo: "'Aplicación de Reservas para Restaurantes(2023)'",
         descripcion: "Creé una aplicación móvil con Flutter que permite a los usuario reservar mesas en restaurantes locales",
         proyectoLink: "https://www.google.com.ar",
@@ -12,7 +17,7 @@ misProyectos.value = ([
     },
     {
         id: 2,
-        src: '/src/assets/e-learning.png',
+        src: proyecto2,
         titulo: 'Plataforma de E-Learning(2022)',
         descripcion: 'Diseñe y desarrolle una plataforma de educación en línea utilizando Django y React',
         proyectoLink: "https://www.google.com.ar",
@@ -20,7 +25,7 @@ misProyectos.value = ([
     },
     {
         id: 3,
-        src: '/src/assets/blogPersonal.png',
+        src: proyecto3,
         titulo: 'Blog Personal con CMS(2022)',
         descripcion: 'Construí un blog personal con un sistema de gestión de contenido(CMS) utilizando WordPress',
         proyectoLink: "https://www.google.com.ar",
@@ -28,7 +33,7 @@ misProyectos.value = ([
     },
     {
         id: 4,
-        src: '/src/assets/inventario.png',
+        src: proyecto4,
         titulo: 'Inventario(2021)',
         descripcion: 'Desarrollé una aplicación de inventario para una pequeña empresa utilizando Java y MySQL',
         proyectoLink: "https://www.google.com.ar",

@@ -1,13 +1,17 @@
 <script setup>
+import linkedin_icon from './icons/linkedin_icon.svg';
+import instagram_icon from './icons/instagram_icon.svg';
+import github_icon from './icons/github_icon.svg';
+import cv_resume_icon from './icons/cv_resume_icon.svg';
 const title = 'Juan Perez';
 const description = 'Técnico Universitario en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Hola, Bienvenido a mi portafolios de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles';
 const redesSociales = [
-    {id:1, name: 'Linkedin', src:'./src/components/icons/linkedin_icon.svg', url:''},
-    {id:2, name: 'Instagram', src: './src/components/icons/instagram_icon.svg', url:''},
-    {id:3, name: 'GitHub', src: './src/components/icons/github_icon.svg', url:''},
-    {id:4, name: 'Curriculum Vitae', src: './src/components/icons/cv_resume_icon.svg',url:''},
+    {id:1, name: 'Linkedin', src:linkedin_icon, url:''},
+    {id:2, name: 'Instagram', src: instagram_icon, url:''},
+    {id:3, name: 'GitHub', src: github_icon, url:''},
+    {id:4, name: 'Curriculum Vitae', src: cv_resume_icon,url:''},
 ];
 </script>
 <template>
